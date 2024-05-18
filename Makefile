@@ -20,9 +20,15 @@ build:
 install: build
 	pip install .
 
+install-sys: build
+	pipx install .
+
 # Befehl zum Deinstallieren des Pakets
 uninstall:
 	pip uninstall -y $(PACKAGE_NAME)
+
+uninstall-sys:
+	pipx uninstall $(PACKAGE_NAME)
 
 # Befehl zum Bereinigen der Build-Verzeichnisse
 clean:
