@@ -2,6 +2,8 @@
 
 QRClipboard is a Python package that creates QR codes from the contents of the clipboard.
 
+![QRClipboard](./media/test-image-01.png)
+
 ## Installation
 To install the package, follow these steps:
 

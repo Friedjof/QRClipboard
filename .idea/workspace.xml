@@ -36,7 +36,7 @@
     &quot;Python.app.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -73,6 +73,7 @@
       <workItem from="1716057096482" duration="386000" />
       <workItem from="1716057799265" duration="344000" />
       <workItem from="1716058875909" duration="3970000" />
+      <workItem from="1716063681640" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="fix: error handling">
       <option name="closed" value="true" />
