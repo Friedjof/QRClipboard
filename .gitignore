@@ -1,0 +1,105 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.wheel
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports (if you decide to add tests in the future)
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.pytest_cache/
+.cache/
+.junit.xml
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# C extensions
+*.so
+
+# Database
+*.db
+*.sqlite
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Sphinx documentation
+docs/_build/
+
+# PyInstaller
+*.spec
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Test and coverage reports
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Linting
+pylint.log
+
+# Virtual environments
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/

@@ -1,0 +1,3 @@
+"""
+Clipboard QR Code Generator
+"""
