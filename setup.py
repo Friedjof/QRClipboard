@@ -10,12 +10,12 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'qrclipboard=QRClipboard.main:main',
+            'qrclip=QRClipboard.main:main',
         ],
     },
     author='Friedjof Noweck',
     author_email='git@noweck.info',
-    description='Ein Paket zum Erstellen von QR-Codes aus dem Inhalt der Zwischenablage.',
+    description='This script reads the content of the clipboard and displays it as a QR code.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/friedjof/QRClipboard',

@@ -1,89 +1,58 @@
 # QRClipboard
 
-Ein Python-Paket zum Erstellen von QR-Codes aus dem Inhalt der Zwischenablage.
+QRClipboard is a Python package that creates QR codes from the contents of the clipboard.
 
 ## Installation
-Um das Paket zu installieren, führe folgende Schritte aus:
+To install the package, follow these steps:
 
-1. **Erstelle das Paket**:
-   ```sh
-   make build
-   ```
+1. First, create the package by running the `make build` command. This command will generate the source distribution (`sdist`) and wheel (`bdist_wheel`) for the package.
 
-2. **Installiere das Paket**:
-   ```sh
-   make install
-   ```
+2. Once the package is built, you can install it using `pipx` with the `make install` command. This command installs the package in an isolated environment to avoid any conflicts with other packages.
 
-## Nutzung
-Nach der Installation kannst du das Paket mit dem Befehl `qrclipboard` ausführen:
+## Usage
+After installing the package, you can execute it using the `qrclip` command:
 
 ```sh
-qrclipboard
+qrclip
 ```
 
-## Befehle
-Hier sind einige nützliche Befehle, die in der `Makefile` definiert sind:
+This command will read the current content of the clipboard, generate a QR code from it, and display the QR code.
 
-- **Erstellen des Pakets**:
-  ```sh
-  make build
-  ```
-  Dieser Befehl erstellt das Paket als source distribution (`sdist`) und wheel (`bdist_wheel`).
+## Development
+To contribute to this project, follow these steps:
 
-- **Installieren des Pakets**:
-  ```sh
-  make install
-  ```
-  Dieser Befehl installiert das Paket systemweit oder in der aktuellen virtuellen Umgebung.
-
-- **Deinstallieren des Pakets**:
-  ```sh
-  make uninstall
-  ```
-  Dieser Befehl deinstalliert das Paket.
-
-- **Bereinigen der Build-Verzeichnisse**:
-  ```sh
-  make clean
-  ```
-  Dieser Befehl entfernt die Build-Verzeichnisse und temporäre Dateien.
-
-- **Ausführen von Unit-Tests**:
-  ```sh
-  make test
-  ```
-  Dieser Befehl führt die Unit-Tests aus (falls du Tests in einem `tests`-Verzeichnis hinzugefügt hast).
-
-- **Hochladen des Pakets auf PyPI**:
-  ```sh
-  make upload
-  ```
-  Dieser Befehl lädt das Paket auf PyPI hoch (dieser Befehl ist optional und erfordert das `twine`-Modul).
-
-- **Ausführen des Skripts**:
-  ```sh
-  make run
-  ```
-  Dieser Befehl führt das Hauptskript des Pakets aus.
-
-## Entwickeln
-Wenn du an diesem Projekt mitarbeiten möchtest, folge diesen Schritten:
-
-1. **Forke das Repository**.
-2. **Erstelle einen neuen Branch**:
+1. Fork the repository on GitHub.
+2. Create a new branch for your feature or bug fix:
    ```sh
-   git checkout -b feature-mein-neuer-feature
+   git checkout -b feature-new-feature
    ```
-3. **Führe deine Änderungen durch und committe sie**:
+3. Make your changes and commit them with a meaningful message:
    ```sh
-   git commit -m 'Füge neuen Feature hinzu'
+   git commit -m 'Add new feature'
    ```
-4. **Pushe deine Änderungen zu GitHub**:
+4. Push your changes to GitHub:
    ```sh
-   git push origin feature-mein-neuer-feature
+   git push origin feature-new-feature
    ```
-5. **Erstelle einen Pull Request**.
+5. Open a pull request on GitHub to merge your changes.
 
-## Lizenz
-Dieses Projekt ist lizenziert unter der MIT-Lizenz. Weitere Informationen findest du in der `LICENSE`-Datei.
+## Commands
+The project includes a `Makefile` that simplifies various tasks:
+
+- To build the package, use `make build`. This command runs the `setup.py` script to create the source distribution and wheel for the package.
+
+- To install the package, use `make install`. This command utilizes `pipx` to install the package in an isolated environment.
+
+- To uninstall the package, use `make uninstall`. This command removes the package installed by `pipx`.
+
+- To clean the build directories, use `make clean`. This command deletes the `build`, `dist`, and `.egg-info` directories to ensure a clean state.
+
+- To run unit tests, use `make test`. This command executes all unit tests located in the `tests` directory to verify that the package works as expected.
+
+- To upload the package to PyPI, use `make upload`. This command uses `twine` to upload the built distributions to the Python Package Index (PyPI). This step is optional and requires the `twine` module to be installed.
+
+- To run the main script of the package, use `make run`. This command executes the main function defined in the `QRClipboard.main` module.
+
+## License
+This project is licensed under the MIT License. For more details, refer to the `LICENSE` file.
+
