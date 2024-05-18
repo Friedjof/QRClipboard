@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7913493-d601-4a14-9ee7-994d2105845d" name="Changes" comment="fix: readme">
+    <list default="true" id="d7913493-d601-4a14-9ee7-994d2105845d" name="Changes" comment="fix: docs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,7 @@
       <workItem from="1716057096482" duration="386000" />
       <workItem from="1716057799265" duration="344000" />
       <workItem from="1716058875909" duration="3970000" />
-      <workItem from="1716063681640" duration="314000" />
+      <workItem from="1716063681640" duration="1804000" />
     </task>
     <task id="LOCAL-00001" summary="fix: error handling">
       <option name="closed" value="true" />
@@ -91,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716062193378</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix: docs">
+      <option name="closed" value="true" />
+      <created>1716064128562</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716064128562</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +108,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix: error handling" />
     <MESSAGE value="fix: readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: readme" />
+    <MESSAGE value="fix: docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: docs" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/QRClipboard$main.coverage" NAME="main Coverage Results" MODIFIED="1716060643380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QRClipboard" />
