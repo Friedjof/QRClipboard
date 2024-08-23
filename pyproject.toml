@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=72.1.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "QRClipboard"
+version = "0.1.2"
+description = "This script reads the content of the clipboard and displays it as a QR code."
+readme = "README.md"
+requires-python = ">=3.6"
+authors = [
+    {name = "Friedjof Noweck", email = "git@noweck.info"}
+]
+license = {text = "MIT"}
+dependencies = [
+    "pyperclip",
+    "qrcode[pil]",
+    "setuptools>=72.1.0",
+    "validators>=0.33.0"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/friedjof/QRClipboard"
+Documentation = "https://github.com/friedjof/QRClipboard/blob/main/README.md"
+Source = "https://github.com/friedjof/QRClipboard"
+Tracker = "https://github.com/friedjof/QRClipboard/issues"
+
+[project.scripts]
+qrclip = "QRClipboard.main:main"
+
+[tool.setuptools.packages.find]
+include = ["QRClipboard"]

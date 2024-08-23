@@ -9,7 +9,8 @@ DIST_DIR = dist
 all: build
 
 build:
-	$(PYTHON) setup.py sdist bdist_wheel
+	$(PYTHON) -m pip install --upgrade build
+	$(PYTHON) -m build
 
 install: build
 	pipx install .
@@ -21,13 +22,10 @@ uninstall:
 	pipx uninstall $(PACKAGE_NAME)
 
 uninstall-venv:
-	pip uninstall-all
+	pip uninstall $(PACKAGE_NAME)
 
 clean:
 	rm -rf $(BUILD_DIR) $(DIST_DIR) *.egg-info
-
-test:
-	$(PYTHON) -m unittest discover -s tests
 
 upload: build
 	twine upload $(DIST_DIR)/*
