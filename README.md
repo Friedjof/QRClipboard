@@ -5,6 +5,12 @@ QRClipboard is a Python package that creates QR codes from the contents of the c
 ![QRClipboard](https://github.com/Friedjof/QRClipboard/blob/main/media/test-image-01.png)
 
 ## Installation
+### PyPi.org with pipx
+```sh
+pipx install QRClipboard
+```
+
+### Manually
 To install the package, follow these steps:
 
 1. First, create the package by running the `make build` command. This command will generate the source distribution (`sdist`) and wheel (`bdist_wheel`) for the package.
